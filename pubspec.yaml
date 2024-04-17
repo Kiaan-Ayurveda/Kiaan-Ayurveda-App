@@ -1,0 +1,50 @@
+name: kiaan_app
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  dio: ^5.4.1
+  intl: ^0.19.0
+  path_provider: ^2.1.2
+  printing: ^5.12.0
+  pdf: ^3.10.8
+  indian_currency_to_word: ^1.0.0
+  flutter_typeahead: ^5.2.0
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons:
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.8
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: "AppIcon"
+  image_path: "assets/logo.png"
+  min_sdk_version: 21
+  remove_alpha_ios: true
+
+  web:
+    generate: true
+    image_path: "assets/logo.png"
+    background_color: "#FFFFFF"
+    theme_color: "#FFFFFF"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/logo.png
+    - assets/sign.png
+    - assets/kiaan.svg
